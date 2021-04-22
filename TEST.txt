@@ -1,0 +1,17 @@
+<ここから見出し
+将来の夢は「プログラマー」
+</ここまで＞
+＜ここまで本文＞
+近年小学生以下の子供を多く持つ親が、小学校
+でのプログラム・・・・・
+
+・・・
+エンジニア人材サービス会社の調査
+
+
+
+<html lang="ja">    //指定しないと、翻訳するかが聞かれる
+    <meta charset="UTF-8">//文字コード
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">//何のブラウザに起動しますか　cromの場合egeでもいい
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">//ビュー幅　どのらいの文字の幅なのか　横幅
+    //ウィンドウ幅　横幅はデバイスと一緒です。1.0倍にするのスケール
