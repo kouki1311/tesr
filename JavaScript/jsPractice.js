@@ -34,13 +34,13 @@
 // console.log(z);
 'use strict'
 
-let age=30;//変数
-const name="田中太郎";//定数 
+// let age=30;//変数
+// const name="田中太郎";//定数 
 
 
-++age;
-age=age+2;
-console.log(`${name}さんの年齢は${age}です。`);
+// ++age;
+// age=age+2;
+// console.log(`${name}さんの年齢は${age}です。`);
 
 //ES6 or ES2015
 //var 変数名 　使われてない
