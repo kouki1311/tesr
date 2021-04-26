@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+</head>
+<body>
+    <h1>楽しいJavaScript</h1>
+    <p id=target>こんにちは！こんにちはこんにちは</p>
+    <p id=1>こんにちは！こんにちはこんにちは</p>
+    <p>こんにちは！こんにちはこんにちは</p>
+    <button id="TextChange">テキストチェンジ</button>
+    <script>
+        'use strict'
+//     const TextChange=()=>
+//     {
+//         //document.querySelector('h1').textContent="Chnaged!!";
+//         //id指定
+//         document.querySelector('#target').textContent="Chnaged!!";
+//         //getElementBYIDでID指定
+//  document.getElementById('1').textContent=1;
+//     }
+//     setTimeout(TextChange(),1000);
+
+//クリックしたら、イベントがおきる。
+//idのTextChnageをクリックしたら、文字変わる             
+document.getElementById('TextChange').addEventListener('click',()=>
+{
+    document.getElementById('target').textContent="Change!!";
+})
+    </script>
+</body>
+</html。
