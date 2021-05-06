@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: skyblue;
+        margin: 0 8px 8px 0;
+        cursor: pointer;
+        transition: .8s;
+    }
+    .circel
+    {
+        border-radius: 50px;
+        background-color: pink;
+     transform: rotate(360deg);
+    }
+ 
+    </style>
+</head>
+<body>
+    <div class="box"id="target1"></div>
+    <div class="box"id="target2"></div>
+    <div class="box"id="target3"></div>
+    <script>
+        'use strict'
+
+        const target1=document.getElementById('target1');
+        const target2=document.getElementById('target2');
+        const target3=document.getElementById('target3');
+
+    target1.addEventListener('click',()=>{
+            target1.classList.add('circel');
+        });
+        target3.addEventListener('click',()=>{
+            target3.classList.add('circel');
+        });
+        target2.addEventListener('click',()=>{
+            target2.classList.add('circel');
+        });
+
+
+    </script>
+</body>
+</html>
